@@ -1,0 +1,12 @@
+version: v1
+kind: Pod
+metadata:
+  name: voting-app
+  label:
+    name: voting-app
+    type: web
+
+spec:
+  template:
+    name: voting-app
+    image: eesprit/voting-app-result
